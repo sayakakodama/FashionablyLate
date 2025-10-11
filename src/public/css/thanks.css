@@ -1,0 +1,58 @@
+/* 全体設定 */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+/* メイン背景＋中央寄せ */
+.thanks {
+    height: 100vh;
+    /* 画面全体の高さ */
+    display: flex;
+    justify-content: center;
+    /* 横中央 */
+    align-items: center;
+    /* 縦中央 */
+    background: url("../images/IMG_0170.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+/* 背景に薄いフィルターをかける（見やすくする） */
+.thanks::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+/* 中央コンテンツ */
+.thanks__content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+/* 見出し */
+.thanks__heading {
+    font-size: 1.8rem;
+    color: #5a4634;
+    margin-bottom: 2rem;
+}
+
+/* HOMEボタン */
+.form__button-submit {
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #7b6a58;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.form__button-submit:hover {
+    background-color: #5a4634;
+}

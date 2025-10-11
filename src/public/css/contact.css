@@ -1,0 +1,118 @@
+body {
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+    color: #4a3b2f;
+    background-color: #fffdfb;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #d6c4b5;
+    padding: 20px;
+    text-align: center;
+}
+
+.header__logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.contact-form {
+    max-width: 700px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 40px;
+    border: 1px solid #e5ddd4;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.contact-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #5a4a3f;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.required {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-left: 4px;
+}
+
+.name-fields {
+    display: flex;
+    gap: 10px;
+}
+
+.name-fields input {
+    flex: 1;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c8bfb6;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.radio-group label {
+    margin-right: 20px;
+}
+
+.error-message {
+    background-color: #ffe8e8;
+    border: 1px solid #e6b8b8;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    color: #b10000;
+}
+
+.form-submit {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn-confirm {
+    background-color: #b89982;
+    color: #fff;
+    border: none;
+    padding: 12px 40px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-confirm:hover {
+    background-color: #a58974;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f5f0ed;
+    color: #7b6b5d;
+    font-size: 14px;
+    margin-top: 40px;
+}

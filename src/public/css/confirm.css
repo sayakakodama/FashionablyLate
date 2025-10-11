@@ -1,0 +1,96 @@
+body {
+    background-color: #fdfbf7;
+    color: #4b3b33;
+    font-family: 'Hiragino Sans', '游ゴシック体', sans-serif;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.header__logo {
+    font-size: 28px;
+    font-weight: 500;
+    color: #6b4b3e;
+    text-decoration: none;
+}
+
+.contact {
+    max-width: 700px;
+    margin: 60px auto;
+    background: #fff;
+    padding: 50px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.contact__title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 24px;
+    color: #6b4b3e;
+}
+
+.form__group {
+    margin-bottom: 24px;
+}
+
+.form__label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.form__required {
+    color: #d9534f;
+    margin-left: 4px;
+}
+
+.form__input,
+.form__input--long,
+.form__textarea,
+.form__select {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.form__input--name input {
+    width: 48%;
+}
+
+.form__radio label {
+    margin-right: 20px;
+}
+
+.form__tel input {
+    width: 80px;
+    text-align: center;
+}
+
+.form__error {
+    color: #d9534f;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+.form__button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.form__btn {
+    background-color: #6b4b3e;
+    color: #fff;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form__btn:hover {
+    background-color: #8c6a58;
+}

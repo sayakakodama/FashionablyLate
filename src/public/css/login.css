@@ -1,0 +1,101 @@
+body {
+    font-family: "Times New Roman", "Hiragino Mincho ProN", serif;
+    background-color: #f4ede7;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== ヘッダー ===== */
+.header {
+    background-color: #fff;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-bottom: 1px solid #e5ddd2;
+}
+
+.header__logo {
+    font-size: 32px;
+    font-weight: normal;
+    color: #8b7b6b;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.header__login-button {
+    font-size: 14px;
+    border: 1px solid #d8cfc4;
+    color: #d8cfc4;
+    padding: 4px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    position: absolute;
+    right: 40px;
+    top: 34px;
+}
+
+/* ===== メイン ===== */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 100px);
+}
+
+.fashionablylate__heading {
+    font-size: 26px;
+    color: #8b7b6b;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: normal;
+}
+
+/* ===== フォーム ===== */
+.form {
+    background-color: #fff;
+    padding: 60px 100px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 520px;
+    text-align: left;
+}
+
+.form__group {
+    margin-bottom: 24px;
+}
+
+.form__group-title {
+    font-size: 16px;
+    color: #554a3c;
+    margin-bottom: 6px;
+    display: block;
+    font-weight: normal;
+}
+
+.form__input--text input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: #f4f4f4;
+    padding: 8px 10px;
+    font-size: 14px;
+    font-family: "Times New Roman", "Hiragino Mincho ProN", serif;
+}
+
+.form__button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.form__button-submit {
+    background-color: #8b7b6b;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
